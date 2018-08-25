@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="FakeItEasy" Version="4.8.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="2.1.2" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.7.0" />
     <PackageReference Include="xunit" Version="2.3.1" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.3.1" />
@@ -15,6 +16,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Constants\SATA.Constants.csproj" />
+    <ProjectReference Include="..\Models\SATA.Models.csproj" />
     <ProjectReference Include="..\SATA.Services\SATA.Services.csproj" />
   </ItemGroup>
 

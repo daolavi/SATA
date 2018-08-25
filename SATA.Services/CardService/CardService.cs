@@ -53,7 +53,7 @@ namespace SATA.Services.CardService
                 if (cardNumber.StartsWith(CardConstants.VISA_START_NUMBER) && cardNumber.Length == CardConstants.VISA_LENGTH)
                     return CardType.Visa;
                 else if (cardNumber.StartsWith(CardConstants.MASTERCARD_START_NUMBER) && cardNumber.Length == CardConstants.MASTERCARD_LENGTH)
-                    return CardType.MasterCard;
+                    return CardType.Master;
                 else if (cardNumber.StartsWith(CardConstants.AMEX_START_NUMBER) && cardNumber.Length == CardConstants.AMEX_LENGTH)
                     return CardType.Amex;
                 else if (cardNumber.StartsWith(CardConstants.JCB_START_NUMBER) && cardNumber.Length == CardConstants.JCB_LENGTH)
@@ -76,7 +76,7 @@ namespace SATA.Services.CardService
             {
                 return new CheckCardResult { Result = ResultType.INVALID };
             }
-            else if (cardType == CardType.MasterCard && !expiryService.IsPrimeNumber(card.ExpiryDate))
+            else if (cardType == CardType.Master && !expiryService.IsPrimeNumber(card.ExpiryDate))
             {
                 return new CheckCardResult { Result = ResultType.INVALID };
             }

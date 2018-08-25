@@ -1,13 +1,11 @@
-﻿using System.Collections.Generic;
-
-namespace SATA.Constants
+﻿namespace SATA.Constants
 {
     public enum CardType
     {
         WrongFormatCard = -1,
         Unknown = 0,
         Visa = 1,
-        MasterCard = 2,
+        Master = 2,
         Amex = 3,
         JCB = 4,
     }
