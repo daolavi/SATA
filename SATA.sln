@@ -5,8 +5,6 @@ VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SATA.Api", "SATA.Api\SATA.Api.csproj", "{6FBABBA2-2825-4CA2-A1D3-0609EEB0C76B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SATA.Tests", "SATA.Tests\SATA.Tests.csproj", "{EEC3B51D-9A39-46AC-B695-5EB1667CB003}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SATA.Services", "SATA.Services\SATA.Services.csproj", "{AA9EB111-515C-4F54-8480-FDE07B449C08}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SATA.Repository", "SATA.Repository\SATA.Repository.csproj", "{C7E53E01-A30F-43F5-A01C-0C0C91123F93}"
@@ -14,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SATA.Constants", "Constants\SATA.Constants.csproj", "{80D8846C-3A59-4344-A750-E61188C034E4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SATA.Models", "Models\SATA.Models.csproj", "{374DD579-4EC3-46D1-986B-1143448BD98E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SATA.Tests", "SATA.Tests\SATA.Tests.csproj", "{BF00820D-5840-49EA-96A8-296BD5B9DE85}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +25,6 @@ Global
 		{6FBABBA2-2825-4CA2-A1D3-0609EEB0C76B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FBABBA2-2825-4CA2-A1D3-0609EEB0C76B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FBABBA2-2825-4CA2-A1D3-0609EEB0C76B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EEC3B51D-9A39-46AC-B695-5EB1667CB003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EEC3B51D-9A39-46AC-B695-5EB1667CB003}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EEC3B51D-9A39-46AC-B695-5EB1667CB003}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EEC3B51D-9A39-46AC-B695-5EB1667CB003}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AA9EB111-515C-4F54-8480-FDE07B449C08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AA9EB111-515C-4F54-8480-FDE07B449C08}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA9EB111-515C-4F54-8480-FDE07B449C08}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,6 +41,10 @@ Global
 		{374DD579-4EC3-46D1-986B-1143448BD98E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{374DD579-4EC3-46D1-986B-1143448BD98E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{374DD579-4EC3-46D1-986B-1143448BD98E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF00820D-5840-49EA-96A8-296BD5B9DE85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF00820D-5840-49EA-96A8-296BD5B9DE85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF00820D-5840-49EA-96A8-296BD5B9DE85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF00820D-5840-49EA-96A8-296BD5B9DE85}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
